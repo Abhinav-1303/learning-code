@@ -1,0 +1,25 @@
+p{
+    height: 100px;
+    width: 100px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: red;
+    text-align: center; /* align within the width set*/
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* can also write as padding: 40 25 40 25 top right bottom left clockwise */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+ /* border-radius: 50% or can set px; if height and width are same and radius is 50 percent then the border will be circle*/
+    background-color: lightgoldenrodyellow;
+}
+h1{
+    border: 5px dotted blue; /* can also give like this*/
+    padding: 25px; /*all side will have 25px padding*/
+    margin: 30px;
+    border-radius: 5px;
+}

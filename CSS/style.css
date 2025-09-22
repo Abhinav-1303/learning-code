@@ -1,0 +1,56 @@
+/* *{
+    color:white; /* this universal selector and applies style to all text, also 
+    also styling will be in order of writing so the priority of this styling is lesser than the one written
+    below 
+}*/
+    
+
+    /* contol / for commenting out text */
+
+h4{ /* element selector */
+    color: violet;
+    background-color: lightgoldenrodyellow;
+}
+
+#i1{   /* id selector */
+    color:antiquewhite;
+}
+
+.c1{    /* class selector */
+    color:bisque;
+}
+
+button{
+    color: pink;
+    background-color: lightskyblue;
+}
+body{
+    background-color: lightgray;
+}
+/* we can also style text or tags using (,) that is like 
+h1, h2, h3{
+    color: red; this will apply to all tag elements
+} */
+ h1{
+    text-align:center; /* also left align is there */
+    text-decoration: underline;
+    font-weight: normal;
+    font-family: cursive;
+    text-transform:capitalize; /* for converting every first letter of the words in a paragraph */
+ }
+ h2{
+    text-align: right;
+    text-decoration: blue wavy overline;
+    font-weight:bolder;
+    font-size: 35px;
+    text-transform: lowercase;
+ }
+ h3{
+    text-decoration: line-through;
+    font-weight: lighter; /*also we can use values 100 - 900 from light to dark */
+    line-height: 50px;
+    text-transform: uppercase;
+ }
+ a{
+    text-decoration: none; /*this removes the linke under the link*/
+ }
